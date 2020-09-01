@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+ 
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Game!!</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="game">
+    <div id="header" class="header">
+    </div>
+    <div class="contents">
+      <div id="screen" class="screen">
+      </div>
+    </div>
+    <div id="contents" class="footer">
+      <div id="chatbox" class="chatbox"></div>
+      <div id="command" class="command">
+        <div class="command-inner">
+          <div id="fight">たたかう</div>
+          <div id="defence">ぼうぎょ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="start" onclick="gameStart()">Game Start!</div>
+  <audio id="bgm1" autoplay><source src="sounds/game_maoudamashii_1_battle37.mp3" type="audio/mp3"></audio>
+  <audio id="attack1" autoplay><source src="sounds/sword-slash1.mp3" type="audio/mp3"></audio>
+  <audio id="attack2" autoplay><source src="sounds/punch-heavy2.mp3" type="audio/mp3"></audio>
+  <audio id="attack3" autoplay><source src="sounds/jump1.mp3" type="audio/mp3"></audio>
+  <audio id="hisou" autoplay><source src="sounds/n74.mp3" type="audio/mp3"></audio>
+  <audio id="shouri" autoplay><source src="sounds/shouri.mp3" type="audio/mp3"></audio>
+  <script src="./objects.js"></script>
+  <script src="./commons.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
