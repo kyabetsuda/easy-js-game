@@ -270,9 +270,9 @@ function insertStatus(person) {
     // statusをheaderに追加
     var header = document.getElementById("header");
     // headerの要素を削除
-    while (header.firstChild) {
-        header.removeChild(header.firstChild);
-    }
+    // while (header.firstChild) {
+    //     header.removeChild(header.firstChild);
+    // }
     header.appendChild(status);
 }
 
