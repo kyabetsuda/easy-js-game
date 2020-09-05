@@ -61,16 +61,25 @@ body {
 .footer {
     position: absolute;
     bottom : 3vh;
+    height: 20vh;
     width: 95%;
 }
 .footer .chatbox {
     padding : 2vh;
     border: solid 3px white;
-    height: 20vh;
+    position: absolute;
+    top : 0px;
+    bottom : 0px;
+    left : 0px;
+    right : 0px;
     display: none;
 }
 .footer .command {
-    height: 20vh;
+    position: absolute;
+    top : 0px;
+    bottom : 0px;
+    left : 0px;
+    right : 0px;
     border: solid 3px white;
 }
 .footer .command .command-inner {
