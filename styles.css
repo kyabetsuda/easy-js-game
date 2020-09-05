@@ -44,7 +44,7 @@ body {
 /* 真ん中の部分 */
 .contents {
     width:100%;
-    height:55vh;
+    height:50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ body {
         font-size : 2vw;
     }
     .screen img {
-        height : 70%;
+        height : 80%;
     }
     .footer .chatbox {
         font-size: 2vw;
