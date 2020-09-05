@@ -11,15 +11,10 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 #game {
     display:none;
     justify-content: center;
     align-items: center;
-}
-
-#bgm1 {
-    display:none
 }
 
 /* ヘッダー */
@@ -69,10 +64,9 @@ body {
     display: none;
 }
 .footer .chatbox .chatboxInner {
-    margin-left:30px;
+    margin-left:10px;
     margin-top:10px;
 }
-
 .footer .command {
     height : 100%;
     border: solid 3px white;
@@ -101,6 +95,12 @@ body {
     }
     .header .status .statusInner {
         font-size : 2vw;
+    }
+    @media screen and (max-height: 600px){
+        /*必要ならばここにコードを書く*/
+        .contents {
+            height:40vh;
+        }
     }
  }
  @media screen and (orientation: portrait) {
