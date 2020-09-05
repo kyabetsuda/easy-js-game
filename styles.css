@@ -86,7 +86,7 @@ body {
         font-size : 2vw;
     }
     .screen img {
-        max-height : 90%;
+        height : 70%;
     }
     .footer .chatbox {
         font-size: 2vw;
