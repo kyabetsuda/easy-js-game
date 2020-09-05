@@ -95,7 +95,7 @@ body {
         width: 25%;
     }
     .header .status .statusInner {
-        font-size : 200%;
+        font-size : 2vw;
     }
  }
  @media screen and (orientation: portrait) {
