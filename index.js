@@ -279,7 +279,14 @@ function insertStatus(person) {
 /* チャットボックス表示 */
 function showChatBox(str) {
     var chatbox = document.getElementById("chatbox");
-    chatbox.innerText = str;
+    // 要素を削除
+    while (chatbox.firstChild) {
+        chatbox.removeChild(chatbox.firstChild);
+    }
+    var chatboxInner = document.createElement("div");
+    chatboxInner.setAttribute("class","chatboxInner");
+    chatboxInner.innerText = str;
+    chatbox.appendChild(chatboxInner);
     chatbox.style.display="block";
 }
 
